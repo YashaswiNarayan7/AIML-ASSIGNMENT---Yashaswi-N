@@ -1,0 +1,27 @@
+Decision Tree: Should I Play Outside?
+
+Sample Dataset:
+
+| Weather  | Temperature | Humidity | Windy | Play |
+| -------- | ----------- | -------- | ----- | ---- |
+| Sunny    | Hot         | High     | No    | No   |
+| Sunny    | Hot         | High     | Yes   | No   |
+| Overcast | Hot         | High     | No    | Yes  |
+| Rain     | Mild        | High     | No    | Yes  |
+| Rain     | Cool        | Normal   | No    | Yes  |
+| Rain     | Cool        | Normal   | Yes   | No   |
+| Overcast | Cool        | Normal   | Yes   | Yes  |
+
+Decision Rules (Textual Tree):
+
+If Weather = Overcast → Play = Yes
+Else if Weather = Sunny AND Humidity = High → Play = No
+Else if Weather = Rain AND Windy = No → Play = Yes
+Else → Play = No
+
+Test Cases:
+| Weather  | Temperature | Humidity | Windy | Predicted Play? |
+| -------- | ----------- | -------- | ----- | --------------- |
+| Sunny    | Hot         | High     | No    | No              |
+| Rain     | Mild        | High     | Yes   | No              |
+| Overcast | Cool        | Normal   | No    | Yes             |

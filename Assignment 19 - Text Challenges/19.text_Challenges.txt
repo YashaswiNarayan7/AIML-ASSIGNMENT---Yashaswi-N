@@ -1,0 +1,64 @@
+Assignment: Text Challenges
+Date: 20/03/2026
+Name: Yashaswi N
+
+Description:
+This task involves collecting messy text data and identifying issues such as slang, emojis, and spelling errors. It also explains the preprocessing steps required to clean the text for analysis.
+
+🔹 20 Messy Sentences
+I luv this movie 😍
+This is sooo bad!!!
+OMG that was gr8
+I can’t believe dis 😭
+wat r u doing??
+This food is yummyyy 😋
+LOL that’s funny 😂
+Pls help me ASAP
+I am sooo tired 😴
+This is awsm!!!
+gud job bro 👍
+I hate this sm 😡
+That was lit 🔥
+idk what to do
+Thx for helping 😊
+This place is meh 😐
+u r amazing ❤️
+sooo coool 😎
+I didn’t like dis
+Best day everrr 🎉
+🔹 Issues Identified
+1. Slang / Abbreviations
+luv → love
+gr8 → great
+idk → I don’t know
+thx → thanks
+asap → as soon as possible
+2. Emojis
+😍 😂 😭 😡 🔥 😎 etc.
+👉 These add emotion but are not useful for basic text processing
+3. Typos / Informal Words
+dis → this
+wat → what
+gud → good
+4. Repeated Characters
+sooo → so
+coool → cool
+everrr → ever
+🔹 Preprocessing Needed
+
+To clean the text, the following steps are required:
+
+Convert to lowercase
+→ Ensures uniform text
+Remove punctuation
+→ Removes symbols like !, ?, etc.
+Remove emojis
+→ Eliminates unnecessary characters
+Correct spelling / normalize slang
+→ Converts informal words to proper form
+Remove stopwords
+→ Removes common words like “is”, “the”
+Tokenization
+→ Splits text into words
+Stemming / Lemmatization
+→ Converts words to root form

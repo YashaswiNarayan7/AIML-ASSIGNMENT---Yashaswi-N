@@ -1,0 +1,22 @@
+Assignment: Mini Project Proposal
+Date: 19/03/2026
+Name: Yashaswi N
+
+Mini Project Proposal
+Project Title:
+Emotion-Based Music Recommendation System
+
+Problem Statement:
+In today’s fast-paced world, people often listen to music based on their mood, but selecting the right music manually can be time-consuming. There is no simple system that understands a user’s emotional state and suggests suitable music automatically. This project aims to solve that problem by analyzing user input and recommending music based on detected emotions.
+
+Dataset:
+The dataset will consist of short text sentences representing different emotions such as happy, sad, angry, and relaxed. A small custom dataset can be created manually by collecting sentences and labeling them with corresponding emotions. Additional datasets for songs categorized by mood can also be used if needed.
+
+Algorithm:
+The project will use Natural Language Processing (NLP) techniques to preprocess the text, including tokenization, stopword removal, and vectorization using methods like TF-IDF. A classification algorithm such as Naive Bayes or Logistic Regression will be used to predict the emotion of the input text. Based on the predicted emotion, a recommendation system will suggest appropriate songs.
+
+Expected Output:
+The system will take a user’s text input (e.g., “I feel very sad today”) and predict the underlying emotion. Based on the detected emotion, it will recommend a list of songs that match the mood. The output will include the predicted emotion and corresponding music suggestions.
+
+Conclusion:
+This project combines NLP and recommendation systems to create a practical and user-friendly application. It demonstrates how machine learning can be used to improve user experience by providing personalized content based on emotions.
