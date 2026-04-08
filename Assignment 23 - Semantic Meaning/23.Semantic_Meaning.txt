@@ -1,0 +1,30 @@
+# Assignment: Semantic meaning
+# Date: 27/03/2026
+# Name: Yashaswi N
+
+Semantic meaning in NLP refers to understanding how words are related based on their usage and context rather than just dictionary definitions. Modern AI models represent words as vectors in a high-dimensional space, where similarity between words is measured using techniques like cosine similarity.
+
+Word Pairs and Analysis
+1. Car – Vehicle
+Relationship Type: Hypernym (IS-A relationship)
+Explanation:
+A car is a specific type of vehicle. In embedding models such as Word2Vec or GloVe, these words are placed close to each other because they frequently appear in similar contexts.
+“Vehicle” represents a broader semantic category, while “car” is more specific.
+2. Big – Large
+Relationship Type: Synonyms
+Explanation:
+These words have nearly identical meanings and are often interchangeable. In vector representations, they have high cosine similarity because they are used in similar linguistic contexts.
+3. Hot – Cold
+Relationship Type: Antonyms
+Explanation:
+Although these words are opposites, NLP models often place them relatively close in vector space because they occur in similar contexts (e.g., temperature, weather).
+This highlights an important concept: semantic similarity in AI depends on context, not just meaning.
+4. Teacher – Student
+Relationship Type: Relational / Contextual similarity
+Explanation:
+These words are not similar in meaning but are strongly related through context. They frequently co-occur in educational settings.
+NLP models capture this relationship through co-occurrence patterns rather than direct similarity.
+5. Dog – Puppy
+Relationship Type: Hierarchical (Parent–Child relationship)
+Explanation:
+A puppy is a young dog. These words are closely related in embedding space, but “puppy” may also associate with attributes like “small” or “cute,” showing how context shapes representation.

@@ -1,0 +1,51 @@
+# Assignment: Prompt Engineer
+# Date: 30/03/2026
+# Name: Yashaswi N
+
+Prompt engineering is the process of designing effective inputs to guide AI models toward desired outputs. A well-structured prompt improves accuracy, relevance, and clarity, while a vague prompt produces generic or low-quality results.
+
+1. Resume Generation
+Weak Prompt
+
+“Write a resume”
+
+Strong Prompt
+
+“Create a professional one-page resume for a final-year Computer Science Engineering student skilled in Python, SQL, Power BI, and data analysis. Include sections for education, technical skills, projects, and internships. Keep it concise and ATS-friendly.”
+
+Comparison
+Weak prompt lacks context and structure
+Strong prompt specifies role, skills, format, and constraints
+Output from strong prompt is more relevant and usable
+2. Business Idea
+Weak Prompt
+
+“Give a business idea”
+
+Strong Prompt
+
+“Suggest a low-budget, scalable business idea suitable for college students in India, preferably using digital platforms. Include target audience, revenue model, and growth strategy.”
+
+Comparison
+Weak prompt leads to generic ideas
+Strong prompt defines location, budget, and expectations
+Output becomes practical and implementable
+3. Study Plan
+Weak Prompt
+
+“Make a study plan”
+
+Strong Prompt
+
+“Create a 30-day study plan for a beginner to learn data analytics, covering SQL, Python, and Power BI. Allocate daily tasks with time estimates and include revision and practice sessions.”
+
+Comparison
+Weak prompt is vague and open-ended
+Strong prompt includes duration, subjects, and structure
+Output becomes structured and actionable
+Key Principles of Strong Prompts
+Clarity – Clearly define what you want
+Context – Provide background information
+Specificity – Mention constraints (time, format, level)
+Structure – Specify output format
+Goal-Oriented – Define the final objective
